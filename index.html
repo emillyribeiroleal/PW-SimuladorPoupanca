@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    
+    <title>SIMULADOR POUPANÇA</title>
+</head>
+
+<body>
+    <fieldset>
+        <h2>-----SIMULADOR POUPANÇA----</h2>
+        <form>
+         <label for="deposito">Quanto você deseja guardar: </label>
+         <input type="text" id="deposito" >
+            <br>
+            <br>
+         <label for="meses">Por quantos meses deseja guardar: </label>
+         <input type="text" id="meses">
+
+        <h4>-----RESULTADO-----</h4>
+
+        <label for="resultado">O valor calculado foi de: </label>
+        <input type="text" id="resultado"  >
+        <br>
+        <br>
+   
+
+        <input type="button" id="calcular" value="Calcular" onclick="calcular()">
+        <input type="reset" id="limpar" value="Limpar" onclick="limpar()">
+
+        </form>
+    </fieldset>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
